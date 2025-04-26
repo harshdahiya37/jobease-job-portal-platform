@@ -31,12 +31,3 @@ Tech Stack:
   Database: PostgreSQL
   Authentication: JWT
   Build Tools: Maven
-
-API Endpoints
-HTTP       Method	Endpoint	                Description	Access
-POST	     /api/auth/login	                Login with JWT	Public
-POST	     /api/recruiter/jobs	            Create job posting	Recruiter
-GET	       /api/recruiter/jobs/my-posts  	  View recruiter’s jobs	Recruiter
-POST	     /api/applications/apply	        Apply for a job	Candidate
-PUT	       /api/applications/{id}/status	  Update application status	Recruiter
-DELETE	   /api/admin/jobs/{id}	            Soft delete job posting	Admin
